@@ -16,7 +16,7 @@ var arr = [
 	 'січня',
 ];
 
-$('.rf_title').text('Данi оновлено ' + date.getDate() + ' лютого ' + date.getFullYear() +' о ' + (date.getHours() < 10 ? '0' + date.getHours() : date.getHours()) + ':' + '' + (date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes()));
+$('.rf_title').text('Данi оновлено ' + date.getDate() + ' червня ' + date.getFullYear() +' о ' + (date.getHours() < 10 ? '0' + date.getHours() : date.getHours()) + ':' + '' + (date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes()));
 
 $.fn.preload = function() {
     this.each(function(){
